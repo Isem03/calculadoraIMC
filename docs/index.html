@@ -16,7 +16,7 @@
     <div id="padre">
         <div id="hijo">
             <form id="bmiForm">
-                <h1 class="text-primary">Calculadora de IMC</h1>
+                <h1 class="text-primary display-5">Calculadora de IMC</h1>
                 <div class="mb-3">
                     <label for="estatura" class="form-label">Estatura</label>
                     <input type="number" class="form-control" id="estatura" aria-describedby="emailHelp" placeholder="En cm">
@@ -25,12 +25,19 @@
                     <label for="peso" class="form-label">Peso</label>
                     <input type="number" class="form-control" id="peso" placeholder="En Kg">
                 </div>
-                <button type="button" onclick="calculateBMI()" class="btn btn-success">Calcular</button>
+                <button type="button" onclick="calculateBMI()" class="btn btn-success mx-center">Calcular</button>
             </form>
             <br>
             <h2 id="result"></h2>
             <br>
-            <h3>Por Isaias Martinez-Aprendiz Sena</h3>
+            <figure>
+                <blockquote class="blockquote">
+                  <p>Desarrolado por: Isaias Martinez.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Aprendiz <cite title="Source Title">Sena</cite>
+                </figcaption>
+              </figure>
         </div>
     </div>
     <script src="logica.js"></script>
